@@ -95,3 +95,35 @@ p{
     bottom: -4px;
     left: 20px;
 }
+
+#carou-item{
+    margin: 2rem 4rem;
+    padding: 15px 30px;
+    background-color: #008080;
+    background-image: url("");
+    height: 30rem;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;   
+}
+
+#carou-ver{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+button{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #088178;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
