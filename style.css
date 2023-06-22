@@ -4,7 +4,7 @@ body{
     width: 100%;
     margin: 0%;
     padding: 0%;
-    background-color: #fffdf6;
+    background-color: #F5FFFF;
 }
 
 h1{
@@ -107,13 +107,27 @@ p{
     justify-content: center;   
 }
 
+#carou-item img{
+    height: 50vh;
+} 
+
 #carou-ver{
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-
+#carou-ver button{
+    background-image: url("src/Images/button.png");
+    background-size: 100%;
+    background-color: transparent;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
 
 button{
     font-size: 14px;
