@@ -421,14 +421,6 @@ footer a:hover{
         margin: 15px 15px;
     }
 
-    #product1 .pro-container {
-        justify-content: center;
-    }
-
-    #product1 .pro {
-        margin: 15px;
-    }
-
     #banner {
         height: 20vh;
     }
@@ -444,10 +436,6 @@ footer a:hover{
 
     #banner3 .banner-box {
         width: 28%;
-    }
-
-    #news-letter .form {
-        width: 70%;
     }
 }
 
@@ -482,11 +470,6 @@ footer a:hover{
         justify-content: space-between;
     }
 
-    #product1 .pro {
-        width: 100%;
-        padding: 5px 5px;
-    }
-
     #banner {
         height: 40vh;
     }
@@ -509,10 +492,6 @@ footer a:hover{
 
     #news-letter .form {
         width: 100%;
-    }
-
-    #news-letter {
-        padding: 40px 20px;
     }
 
     .cr {
