@@ -156,3 +156,90 @@ p{
 #medicine h2 {
   color: #0F9D58;
 }
+
+#foot{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background-color: #A4D1D1;
+}
+
+footer .col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+footer .logo{
+  margin-bottom: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+footer h4{
+  margin: 0%;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+footer p{
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
+
+footer a{
+  font-size: 13px;
+  text-decoration: none;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+footer .follow{
+  margin-top: 20px; 
+}
+
+footer .follow i{
+  color: #465b52;
+  padding-right: 4px;
+  cursor: pointer;
+}
+
+footer .install .row img{
+  border: 1px solid #088178;
+  border-radius: 6px;
+}
+
+footer .install img{
+  margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover{
+  color: #088178;
+}
+
+.icons i{
+  color: #008080;
+}
+
+.cr{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width:100%;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 0%;
+  background-color: #262626;
+  width: 100%;
+}
+
+.cr p{
+  margin: 0%;
+  font-size: 12px;
+  padding: 1px 2px;
+}
+
+.cr p{
+  color: #A4D1D1;
+}
