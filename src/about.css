@@ -52,7 +52,7 @@ p{
   align-items: center;
   justify-content: space-between;
   padding: 20px 80px;
-  background-color: #E3E6F3;
+  background-color: #A4D1D1;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   z-index: 999;
   position: sticky;
@@ -64,6 +64,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 5px;
 }
 
 #navbar li{
@@ -95,39 +96,42 @@ p{
   left: 20px;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f7f7f7;
-  color: #333;
-  margin: 0;
-  padding: 0;
+#about{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 25px;
 }
 
-h1 {
-  font-size: 36px;
-  font-weight: bold;
-  color: #008080;
+#ele{
+  margin: 10px 20px;
+}
+
+#ele ul{
+  margin: 0%;
+  padding: 2px;
+}
+
+#li-ele{
+  list-style: none;
+  text-decoration: none;
+  color: #088178;
+}
+
+#ele h1{
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  font-weight: 800;
+  margin: 0 0 1rem 0;
 }
 
-h2 {
-  font-size: 24px;
-  font-weight: bold;
-  color: #66b2b2;
-  margin-bottom: 15px;
+#ele p{
+  margin: 0%;
+  font-weight: 500;
 }
 
-p {
-  font-size: 18px;
-  line-height: 1.5;
-  margin-bottom: 10px;
-}
-
-ul {
-  list-style: disc;
-  margin-left: 20px;
+.head-ele{
+  margin: 0;
+  color: #088178;
 }
 
 #adoption,
